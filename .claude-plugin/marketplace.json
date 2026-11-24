@@ -1,0 +1,7 @@
+{
+  "name": "medpeer-marketplace",
+  "owner": { "name": "nhattrinhtran2000-ctrl" },
+  "plugins": [
+    { "name": "medpeer", "source": "./", "description": "Multi-agent critical appraisal of medical papers (neurosurgery-first)." }
+  ]
+}

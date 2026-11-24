@@ -1,0 +1,8 @@
+{
+  "name": "medpeer",
+  "version": "0.1.0",
+  "description": "Phản biện bài báo y khoa bằng nhiều sub-agent (phương pháp, thống kê, lâm sàng, thiên lệch, văn liệu/đạo đức) tranh luận tối đa 3 vòng, editor tổng hợp thành báo cáo HTML A4 (5-6 trang) + bản tóm tắt (1-2 trang). Mặc định chuyên ngành ngoại thần kinh, có thể mở rộng.",
+  "author": { "name": "nhattrinhtran2000-ctrl" },
+  "license": "MIT",
+  "keywords": ["peer-review", "medical", "neurosurgery", "critical-appraisal", "subagents"]
+}

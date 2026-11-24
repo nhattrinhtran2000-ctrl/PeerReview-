@@ -34,6 +34,6 @@ Mỗi phát hiện đều kèm trích dẫn + số dòng bản thảo. Không ba
 Sao chép `skills/medical-peer-review/references/domains/_template.md` → `<tên>.md`, rồi `--domain <tên>`.
 
 ## Kiểm tra số trang
-`scripts/export_pdf.py` (cần Python) hoặc `scripts/export_pdf.ps1` (Windows; cần cho phép chạy script PowerShell). Nếu không có, mở HTML và In → Lưu PDF.
+`scripts/export_pdf.py` (cần Python) hoặc `scripts/export_pdf.ps1` (Windows; có thể cần cho phép chạy script PowerShell; chưa kiểm chứng). Nếu không có, mở HTML và In → Lưu PDF; số trang có thể đo ước lượng trong trình duyệt (nội dung rộng 180 mm, mỗi trang ~263 mm).
 
 > Báo cáo do AI tạo, cần chuyên gia kiểm chứng; không thay thế phán đoán lâm sàng. Tham khảo kiến trúc từ PeerReviewAgents và Agentic_Paper (MIT).

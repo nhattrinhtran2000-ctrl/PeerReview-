@@ -32,3 +32,8 @@ Gọi `editor` với RUN_DIR, PLUGIN_ROOT, ngôn ngữ. Đầu ra: `report.html`
 
 ## Mở rộng chuyên ngành
 Sao chép `references/domains/_template.md` thành `<chuyên-ngành>.md`, điền các mục, rồi dùng `--domain <chuyên-ngành>`.
+
+## Lưu ý đã rút ra từ thử nghiệm (ARUBA 2014)
+- Reviewer ở vòng phản biện chéo phải đọc nguyên văn file của người khác (xem "Cách đọc file" trong mỗi agent). Điều phối viên nên dặn thêm trong prompt và, nếu một agent báo chỉ đọc được bản tóm tắt, chạy lại agent đó hoặc ghi hạn chế vào báo cáo.
+- Điều kiện dừng: nếu còn mục "Còn tranh cãi" sau vòng 1 thì chạy vòng chốt (vòng 2), tối đa vòng 3; mọi điểm không giải quyết được từ bản thảo phải được editor ghi là "chưa xác minh".
+- Không dùng tài liệu ngoài bản thảo để ra quyết định nếu chưa xác minh trực tiếp (ví dụ hồ sơ đăng ký trial).
